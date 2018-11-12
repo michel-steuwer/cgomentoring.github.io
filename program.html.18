@@ -1,0 +1,232 @@
+---
+title: Program
+---
+
+<section>
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+<h1>Program</h2>
+
+<h2>Saturday 24th Feburary 2018</h2>
+<table class="program"><tbody>
+    <tr>
+        <td>08:30 - 08:45</td>
+        <td>Opening</td>
+    </tr>
+    <tr>
+        <td>08:45 - 10:00</td>
+        <td>
+            <b>Keynote</b>
+            <ul style="list-style: none;margin-bottom: 0px;">
+              <li>
+                <b>Rethinking Compilers in the Rise of Machine Learning and AI</b><br/>
+                Xipeng Shen <i>(North Carolina State University, USA)</i>
+              </li>
+            </ul>
+            Chair: Jingling Xue
+        </td>
+    </tr>
+    <tr>
+        <td>10:00 - 10:30</td>
+        <td>Coffe Break</td>
+    </tr>
+    <tr>
+        <td>10:30 - 12:00</td>
+        <td>
+            <b>Session 1: Polyhedral Compilation</b><br/>
+            Chair: Jeronimo Castrillon
+            <ul>
+                <li>
+                    <b>Modeling the Conflicting Demands of Parallelism and Temporal/Spatial Locality in Affine Scheduling </b><br/>
+                    Oleksandr Zinenko, Sven Verdoolaege, Chandan Reddy, Jun Shirako, Tobias Grosser, Vivek Sarkar, and Albert Cohen
+                    <i>(Inria, France; ENS, France; KU Leuven, Belgium; Polly Labs, Belgium; Georgia Tech, USA; ETH Zurich, Switzerland)</i>
+                </li>
+                <li>
+                    <b>A Polyhedral Compilation Framework for Loops with Dynamic Data-Dependent Bounds</b><br/>
+                    Jie Zhao, Michael Kruse, and Albert Cohen
+                    <i>(Inria, France; ENS, France)</i>
+                </li>
+                <li>
+                    <b>Polyhedral Expression Propagation </b><br/>
+                    Johannes Doerfert, Shrey Sharma, and Sebastian Hack
+                    <i>(Saarland University, Germany)</i>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>12:00 - 13:30</td>
+        <td>Lunch</td>
+    </tr>
+    <tr>
+        <td>13:30 - 15:00</td>
+        <td>
+            <b>Session 2: Data-Flow and Pointer/Alias Analysis</b><br/>
+            Chair: Jose Nelson Amaral
+            <ul>
+                <li>
+                    <b>Computing Partially Path-Sensitive MFP Solutions in Data Flow Analyses  </b><br/>
+                    Komal Pathade and Uday P. Khedker
+                    <i>(Tata Consultancy Services, India; IIT Bombay, India)</i>
+                </li>
+                <li>
+                    <b>An Efficient Data Structure for Must-Alias Analysis </b><br/>
+                    George Kastrinis, George Balatsouras, Kostas Ferles, Nefeli Prokopaki-Kostopoulou, and Yannis Smaragdakis
+                    <i>(University of Athens, Greece; University of Texas at Austin, USA)</i>
+                </li>
+                <li>
+                    <b>Parallel Sparse Flow-Sensitive Points-to Analysis</b><br/>
+                    Jisheng Zhao, Michael G. Burke, and Vivek Sarkar
+                    <i>(Rice University, USA)</i>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>15:00 - 15:30</td>
+        <td>Coffe Break</td>
+    </tr>
+    <tr>
+        <td>15:30 - 17:00</td>
+        <td>
+            <b>Session 3: Code Generation and Optimisation</b><br/>
+            Chair: Xipeng Shen
+            <ul>
+                <li>
+                    <b>PAYJIT: Space-Optimal JIT Compilation and Its Practical Implementation </b><br/>
+                    Jacob Brock, Chen Ding, Xiaoran Xu, and Yan Zhang
+                    <i>(University of Rochester, USA; Rice University, USA; Futurewei Technologies, USA)</i>
+                </li>
+                <li>
+                    <b>Finding Missed Compiler Optimizations by Differential Testing </b><br/>
+                    Gergö Barany
+                    <i>(Inria, France)</i>
+                </li>
+                <li>
+                    <b>Fast and Flexible Instruction Selection with Constraints </b><br/>
+                    Patrick Thier, M. Anton Ertl, and Andreas Krall
+                    <i>(Vienna University of Technology, Austria)</i>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>18:15</td>
+        <td>Departure of the busses to the Socal Event: Heurigen</td>
+    </tr>
+    <tr>
+        <td>18:30 - 22:00</td>
+        <td><a href="https://ppopp18.sigplan.org/attending/heurigen">Social Event: Heurigen</a></td>
+    </tr>
+</tbody></table>
+
+
+
+
+<h2>Sunday 25th Feburary 2018</h2>
+<table class="program"><tbody>
+    <tr>
+        <td>08:45 - 10:00</td>
+        <td>
+            <b>Keynote</b>
+            <ul style="list-style: none;margin-bottom: 0px;">
+              <li>
+                <b>Compiler and Language Design for Quantum Computing</b><br/>
+                Bettina Heim <i>(Microsoft Research, USA)</i>
+              </li>
+            </ul>
+            Chair: Christophe Dubach
+        </td>
+    </tr>
+    <tr>
+        <td>10:00 - 10:30</td>
+        <td>Coffe Break</td>
+    </tr>
+    <tr>
+        <td>10:30 - 12:00</td>
+        <td>
+            <b>Session 4: Compilation for Specialised Domains</b><br/>
+            Chair: Björn Franke
+            <ul>
+                <li>
+                    <b>Compiling for Concise Code and Efficient I/O </b><br/>
+                    Sebastian Ertel, Andrés Goens, Justus Adam, and Jeronimo Castrillon
+                    <i>(TU Dresden, Germany)</i>
+                </li>
+                <li>
+                    <b>Termination Checking and Task Decomposition for Task-Based Intermittent Programs </b><br/>
+                    Alexei Colin and Brandon Lucia
+                    <i>(Carnegie Mellon University, USA)</i>
+                </li>
+                <li>
+                    <b>A Session Type Provider: Compile-Time API Generation of Distributed Protocols with Refinements in F# </b><br/>
+                    Rumyana Neykova, Raymond Hu, Nobuko Yoshida, and Fahd Abdeljallal
+                    <i>(Imperial College London, UK)</i>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>12:00 - 13:30</td>
+        <td>Lunch</td>
+    </tr>
+    <tr>
+        <td>13:30 - 15:00</td>
+        <td>
+            <b>Session 5: Code Translation and Transformation</b><br/>
+            Chair: Sebastian Hack
+            <ul>
+                <li>
+                    <b>Tail Call Elimination and Data Representation for Functional Languages on the Java Virtual Machine </b><br/>
+                    Magnus Madsen, Ramin Zarifi, and Ondřej Lhoták
+                    <i>(Aalborg University, Denmark; University of Waterloo, Canada)</i>
+                </li>
+                <li>
+                    <b>CAnDL: A Domain Specific Language for Compiler Analysis </b><br/>
+                    Philip Ginsbach, Lewis Crawford, and Michael F. P. O'Boyle
+                    <i>(University of Edinburgh, UK)</i>
+                </li>
+                <li>
+                    <b>Semantic Reasoning about the Sea of Nodes </b><br/>
+                    Delphine Demange, Yon Fernández de Retana, and David Pichardie
+                    <i>(Univ Rennes, France; Inria, France; CNRS, France; IRISA, France)</i>
+                </li>
+            </ul>
+        </td>
+    </tr>
+    <tr>
+        <td>15:00 - 15:30</td>
+        <td>Coffe Break</td>
+    </tr>
+    <tr>
+        <td>15:30 - 17:00</td>
+        <td>
+            <b>Session 6: Compile- and Run-Time Analysis</b><br/>
+            Chair: Michel Steuwer
+            <ul>
+                <li>
+                    <b>Towards a Compiler Analysis for Parallel Algorithmic Skeletons </b><br/>
+                    Tobias J. K. Edler von Koch, Stanislav Manilov, Christos Vasiladiotis, Murray Cole, and Björn Franke
+                    <i>(Qualcomm Innovation Center, USA; University of Edinburgh, UK)</i>
+                </li>
+                <li>
+                    <b>Generalized Profile-Guided Iterator Recognition </b><br/>
+                    Stanislav Manilov, Christos Vasiladiotis, and Björn Franke
+                    <i>(University of Edinburgh, UK)</i>
+                </li>
+                <li>
+                    <b>Efficient Dynamic Analysis for Node.js </b><br/>
+                    Haiyang Sun, Daniele Bonetta, Christian Humer, and Walter Binder
+                    <i>(University of Lugano, Switzerland; Oracle Labs, USA; Oracle Labs, Switzerland)</i>
+                </li>
+            </ul>
+        </td>
+    </tr>
+</tbody></table>
+
+      </div> <!-- /.col-lg-12 -->
+    </div> <!-- /.row -->
+  </div> <!-- /.container -->
+</section>
+

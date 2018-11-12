@@ -1,10 +1,124 @@
-<!DOCTYPE HTML>
-<html lang="en-US">
-    <head>
-        Hello World!
-    </head>
-    <body>
-            Hello
-    </body>
-</html>
+---
+title:  28th International Conference on Compiler Construction 2019
+banner-image-list:
+    - url: https://ppopp19.sigplan.org/getImage/carousel/1956393838_2f53a530f8_o.jpg?1523628195000
+    - url: https://ppopp19.sigplan.org/getImage/carousel/3999436525_895f765c7c_o.jpg?1523628449000
+    - url: https://ppopp19.sigplan.org/getImage/carousel/3702557839_3eea6e4bce_o.jpg?1523628474000
+    - url: https://ppopp19.sigplan.org/getImage/carousel/3722304327_bd0fa92c2d_o.jpg?1523629132000
+    - url: https://ppopp19.sigplan.org/getImage/carousel/5155434461_792a7ec421_o.jpg?1523629136000
+---
 
+<link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/css/lightslider.min.css" />
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/lightslider/1.1.6/js/lightslider.min.js" defer></script>
+<script src="{{ site.baseurl }}/js/lightsliderrun.js" defer></script>
+
+<div style="padding-bottom:0;" class="jumbotron">
+  <div class="container">
+    <ul id="lightSlider">
+      {% for image in page.banner-image-list %}
+      <li style="overflow:hidden">
+        <div style="height:auto; display:flex; align-item:center;">
+          <img style="width:100%; height:auto; align-self: center;" src="{{ image.url }}">
+        </div>
+      </li>
+      {% endfor %}
+      {% for image in site.static_files %}
+      {% if image.path contains 'img/banner/' %}
+      <li>
+        <img src="{{ site.baseurl }}{{ image.path }}">
+      </li>
+      {% endif %}
+      {% endfor %}
+    </ul>
+  </div>
+</div>
+<section class="no-top-padding">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <h1 class="section-heading" style="margin-bottom:.2em;">
+          International Conference on Compiler Construction
+        </h1>
+        <p class="lead section-lead"><b>16-17 February 2019, Washington, DC, USA</b></p>
+        <p class="lead section-lead">
+          Co-located with
+          <a href="http://cgo.org/cgo2019/">CGO</a> and
+          <a href="https://ppopp19.sigplan.org/">PPoPP</a> and
+          <a href="http://hpca2019.seas.gwu.edu">HPCA</a>.
+        </p>
+        <p class="lead section-paragraph">
+          Welcome to the website of the International Conference on Compiler Construction 2019 conference. Updates are added to the website frequently. Please check back frequently for the latest news!
+        </p>
+      </div>
+    </div>
+
+    <div class="row">
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading"><b>Important Dates</b></div>
+
+          <table class="table">
+            <tbody>
+              <tr>
+                <td><!--<s>-->Abstract Submission<!--</s>--></td><td><s>03 November</s> 05 November 2018, Anywhere on Earth</td>
+              </tr>
+              <tr>
+                <td>Paper Submission</td><td><s>07 November</s> <strong style="color:black;"> 10 November 2018</strong>, Anywhere on Earth<br/></td>
+              </tr>
+              <tr>
+                <td>Author Response</td><td>14 - 15 December 2018<br/></td>
+              </tr>
+              <tr>
+                <td>Notification</td><td>1 January 2019</td>
+              </tr>
+              <tr>
+                <td>Final papers due</td><td>15 January 2019</td>
+              </tr>
+            </tbody>
+          </table>
+        </div> <!-- /.panel -->
+      </div> <!-- /.col-md-6 -->
+
+      <div class="col-md-6">
+        <div class="panel panel-default">
+          <div class="panel-heading"><b>Latest Updates</b></div>
+
+          <table class="table">
+	    <tbody>
+    	      <tr><td><b>21 July 2018:</b> Website is live</td></tr>
+<!--
+              <tr><td><b>24 Feburary 2018:</b> The <a href="https://dl.acm.org/citation.cfm?id=3178372">proceedings</a> are available in the ACM digital library.</td></tr>
+              <tr><td><b>6 Feburary 2018:</b> The <a href="{{ '/program/' | relative_url }}">program</a> is announced.</td></tr>
+              <tr><td><b>13 January 2018:</b> List of <a href="{{ '/accepted-papers/' | relative_url }}">accepted papers</a> announced.</td></tr>
+              <tr><td><b>23 November 2017:</b> <a href="{{ '/registration/' | relative_url }}">Registration information</a> and <a href="{{ '/venue/' | relative_url }}">Venue and Travel Information</a> added.</td></tr>
+              <tr><td><b>8 November 2017:</b> CC 2018 will feature a <strong style="color:black;">best paper award</strong>.</td></tr>
+              <tr><td><b>4 November 2017:</b> The paper submission deadline has been extended to <strong style="color:black;">12 November 2017</strong>, Anywhere on Earth.</td></tr>
+              <tr><td><b>7 September 2017:</b> The <a href="https://cc18.hotcrp.com">submission website</a> is now live and <a href="{{ '/submission/' | relative_url }}">submission information</a> have been added</td></tr>
+              <tr><td><b>12 August 2017:</b> Published submission deadline and important dates</td></tr>
+              <tr><td><b>31 July 2017:</b> Hotel room reservation is now <a href="https://reservations.travelclick.com/75040?GroupId=1999609">open</a></td></tr>
+              <tr><td><b>30 July 2018:</b> Initial <a href="{{ '/call/' | relative_url }}">call for papers</a></td></tr>
+
+-->
+            </tbody>
+          </table>
+        </div> <!-- /.panel -->
+      </div> <!-- /.col-md-6 -->
+    </div> <!-- /.row -->
+
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="panel panel-default">
+          <div class="panel-heading"><b>Supporters</b></div>
+<!--
+          <div style="margin-left: .5em; margin-top: .5em;">
+            <p>
+              <a href="https://www.raincodelabs.com/"><img width="400px" src="img/raincode.png" alt="Logo Raincode Labs"/></a>
+            </p>
+          </div>
+-->
+	  </div>
+      </div>
+    </div>
+
+</section>
